@@ -1,0 +1,37 @@
+{
+  "authentication": [
+    {
+      "id": 1,
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+      "userId": "1",
+      "roles": [
+        "Super User"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "clientId": "102",
+      "officeId": "1",
+      "resourceId": "102",
+      "firstname": "Amina",
+      "lastname": "Kamau",
+      "externalId": "OPENCRVS-12345",
+      "dateOfBirth": "2023-11-15"
+    }
+  ],
+  "savingsaccounts": [
+    {
+      "id": 1,
+      "savingsId": "789",
+      "clientId": "102",
+      "productId": "1",
+      "locale": "en",
+      "status": {
+        "code": "savingsAccountStatusType.submitted.and.pending.approval"
+      },
+      "accountNo": "SAV789001"
+    }
+  ]
+}
